@@ -1,0 +1,857 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: "Inter", sans-serif; */
+    font-size: 62.5%;
+
+   
+
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.my-logo{
+    width: 15.9rem;
+}
+.inner-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 0;
+}
+.link-container{
+    display: block;
+    transition: all .2s ease-in-out;
+    padding-top: 22px;
+}
+.link-container ul {
+   display: flex;
+   list-style-type: none;
+   padding-bottom: 13px;
+}
+.link-container ul li a{
+    padding: 0 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.title{
+    color: dodgerblue;
+    font-size: 2.1rem;
+}
+.sub-title{
+    font-size: 3.5rem;
+font-weight: bolder;
+}
+.first-section{
+    background-color: #EEEEEE;
+    position: relative;
+}
+.column{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row{
+    width: 48%;
+}
+.right-img img{
+    width: 100%;
+}
+.detail{
+    display: flex;
+justify-content: center;
+}
+.p1{
+    color: dodgerblue;
+    font-size: 2.2rem;
+
+}
+.hero-name{
+    font-size: 6rem;
+   
+}
+.hero-work{
+    font-size: 2.6rem;
+    margin-bottom: .9rem;
+
+}
+.hero-desc{
+    font-size: 1.5rem;
+    margin-bottom: .9rem;
+}
+.sec1-btn-cont{
+    margin: 3.2rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contact-me-btn{
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+.sec1-btn-cont a{
+    text-decoration: none;
+    color:black;
+}
+.sec1-btn-cont a{
+    padding: 0.6rem 1.6rem;
+display: block;
+}
+.hero-btn{
+    padding: .6rem 1.6rem;
+    border-radius: 3rem;
+    border: 2px solid  dodgerblue;
+}
+.download-btn{
+    background-color: dodgerblue;
+    font-size: 1.5rem;
+}
+.download-btn a{
+    color: white !important;
+}
+/* radius blok  */
+.radius-column{
+    display: flex;
+justify-content: space-around;
+}
+.radius-block{
+    width: 70%;
+    padding: 2.6rem 3rem;
+    margin: 0 auto;
+    border-radius: 5rem;
+    background-color: white;
+    transform: translateY(5rem);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+}
+.radius-title{
+    font-size: 1.7rem;
+}
+.radius-sub-title{
+    font-size: 1.4rem;
+}
+.radius-content-img {
+    width:45px;
+    height:45px;
+    border-radius: 50px;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 9px;
+font-size: 1.7rem;
+ }
+ .radius-content-img img{
+    width: 100%;
+ }
+ .radius-content-wrapper span{
+    display: block;
+ }
+ .radius-content-wrapper{
+    display: flex;
+    align-items: center;
+ }
+ .radius-sub-title{
+    color: dodgerblue;
+ }
+/* about section  */
+.about-img{
+    width: 70%;
+}
+.abt-desc{
+    font-size: 1.5rem;
+}
+.about-img img{
+    width: 100%;
+}
+.df{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    font-size: 1.4rem;
+}
+.abt-personal-detail{
+    margin: 27px 0px;
+    width: 70%;
+}
+.name-icon{
+   color: dodgerblue;
+    margin-right: 3px;
+}
+.abt-p{
+    font-size: 1.7rem;
+    color: dodgerblue;
+}
+.interest-title{
+    padding: 0px 0px;
+    font-weight: bold;
+    margin-top: 22px;
+    font-size: 1.6rem;
+}
+.interest-cont{
+    padding: 4px 0px 0px 0px;
+    font-size: 1.4rem;
+}
+.interest-cont a{
+    text-decoration: none;
+    padding: 0px 6px;
+    color: black;
+}
+.interest-cont a span{
+    color: dodgerblue;
+    margin-right: 3px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.pt-150{
+    padding-top: 150px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.about-img{
+    background-color: #eeee;
+}
+ /* expertise section  */
+ .expertise-section{
+    background-color: #e8f9ff;
+ }
+ .title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .inner-expert{
+    width: 83%;
+    margin: 0 auto;
+  
+ }
+ .progress-container{
+    margin: 8px 0;
+ }
+ .progress-content{
+    display: flex;
+justify-content: space-between;
+font-size: 1.6rem;
+
+ }
+
+ .progress{
+    width: 100%;
+    height: 9px;
+    background: lightgray;margin-top: 13px;
+ }
+ .progress-bar{
+    width: 80%;
+    background: blue;
+    height: 9px;
+ }
+.journey-title{
+    padding-bottom: 1.4rem;
+    display: flex;
+    font-size: 2.1rem;
+}
+.journey-title span{
+    margin-right: 2rem;
+}
+.journey-box{
+    position: relative;
+    border-left: 2px solid dodgerblue;
+    padding-left: 2.2rem;
+    margin-bottom: 30px;
+}
+.journey-qfc{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.align-items{
+    align-items: flex-start !important;
+}
+.round-item{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: dodgerblue;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    transform: translateX(-8px);
+}
+.journey-content{
+    margin-bottom: 12px;
+}
+.journey-duration{
+    font-size: 1.4rem;
+}
+.journey-role{
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+.date{
+    margin-right: 3px;
+    color: dodgerblue;
+}
+.offer-wrapper{
+    width: 29%;
+padding: 3.6rem .7rem 2.2rem 2.2rem;
+position: relative;
+border-top-right-radius: 30px;
+border: 1px solid lightgray;
+margin: 35px 15px;
+transition: all .2s ease-in-out;
+}
+.offer-wrapper:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.offer-wrapper:hover span{
+    background-color: white;
+    color: dodgerblue;
+}
+.offer-icon{
+    position: absolute;
+left: 13px;
+top: 12px;
+background-color: dodgerblue;
+padding: 1.4rem 2.3rem 1.4rem 2.3rem;
+color: white;
+transform: translate(14px,-44px);
+border-radius: 10px;
+}
+.offer-title{
+    font-weight: 600;
+    font-size: 2.2rem;
+    padding-bottom: 7px;
+}
+.offer-desc{
+    font-size: 1.4rem;
+}
+.specilized-inner{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.work-section{
+    background-color: #EEEEEE;
+
+}
+.work-wrapper-link{
+    text-align: center;
+}
+.work-link{
+    text-decoration: none;
+padding: 8px 20px;
+color: black;
+font-size: 1.5rem;
+
+}
+.active-work{
+    font-weight: bolder;
+color: dodgerblue !important;
+
+}
+.work-demo-item{
+    width: 30%;
+    /* border: 2px solid dodgerblue; */
+    /* padding: 5px; */
+    border-radius: 10px;
+    margin: 14px 0;
+
+}
+.work-demo-wrapper{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.work-demo-item img{
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.7s linear;
+
+
+}
+.work-demo-item:hover img{
+transform: scale(1.06);
+}
+.work-show-more-wrapper{
+    text-align: center;
+    padding-top: 17px;
+
+}
+.show-more-link{
+    padding: 1.2rem 2.3rem;
+text-decoration: none;
+color: white;
+background-color: dodgerblue;
+border-radius: 50px;
+font-size: 1.6rem;
+}
+/* contact1  */
+.contact1-wrapper{
+    display: flex;
+flex-direction: column;
+text-align: center;
+padding: 0px 160px;
+    
+    
+}
+.contact1{
+    background-color: dodgerblue;
+    color: white;
+}
+.contact1-title{
+    padding-bottom: 2.5rem;
+    font-size: 2.7rem;
+}
+.contact1-desc{
+    padding-bottom: 30px;
+    font-size: 1.4rem;
+
+}
+.contact1-link{
+    text-decoration: none;
+    color: dodgerblue;
+    background-color: white;
+    padding: 1.2rem 3rem;
+    border-radius: 40px;
+    font-size: 1.7rem;
+    display: inline-block;
+}
+.client-container{
+    display: flex;
+    justify-content: space-around;
+}
+.client-wrapper{
+    /* width: 40%; */
+}
+.client-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.client-desc{
+    font-size: 1.5rem;
+    color: #504f4f;
+    padding-top: 17px;
+  
+}
+.client-img{
+    width: 80px;
+height: 80px;
+border-radius: 50%;
+outline: 2px solid dodgerblue;
+}
+.client-img img{
+    width: 80px;
+height: 80px;
+border-radius: 50%;
+object-fit: cover;
+}
+.client-role{
+    padding-left: 33px;
+padding-top: 10px;
+}
+.client-name{
+    font-size: 2rem;
+font-weight: bolder;
+}
+.client-status{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 1.6rem;
+}
+.client-rating{
+    color: dodgerblue;
+}
+.owl-item{
+    padding: 16px 35px;
+}
+
+/* blog section  */
+.blog-section {
+    background-color: #EEEEEE;
+}
+.blog-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.blog-item{
+    width: 25%;
+    background-color: white;
+    margin-top: 15px;
+
+}
+.blog-img img{
+    width: 100%;
+}
+.blog-content{
+    padding: 13px;
+}
+.blog-date{
+    font-weight: lighter;
+    padding: 5px 0;
+}
+.blog-desc{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 2px 0 5px 0;
+
+}
+.contact2-wrapper{
+    display: flex;
+justify-content:space-between;
+}
+.contact2-left{
+    width: 60%;
+}
+.contact2-right{
+    width: 40%;
+}
+form input{
+    padding: 14px 13px;
+    outline: none;
+    font-weight: bold;
+}
+textarea{
+    padding: 10px 13px;
+    outline: none;
+    resize: none;
+    font-weight: 600;
+}
+.input-group{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#name{
+    width: 49%;
+}
+#email{
+    width: 49%;
+}
+#subject{
+    width: 100%;
+    margin: 10px 0;
+}
+#message{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 1.4rem;
+}
+.send-message{
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    padding: 13px 28px;
+    margin-top: 30px;
+    margin-top: 18px;
+display: inline-block;
+border-radius: 30px;
+    
+}
+.contact2-section{
+    background-image: url('../img/map2.png');
+background-repeat: no-repeat;
+background-position: inherit;
+background-size: cover;
+background-blend-mode: lighten;
+background-color: transparent;
+opacity: 0.6;
+}
+.contact2-right-item{
+    display: flex;
+/* justify-content: center; */
+align-items: self-start;
+padding-left: 100px;
+}
+.contact2-right-icon{
+    display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 40px;
+min-width: 50px;
+min-height: 50px;
+background: dodgerblue;
+color: white;
+}
+.contact2-right-item:not(:first-child){
+    margin-top: 27px;
+}
+.contact2-right-icon i{
+    font-size: 1.3em !important;
+}
+.contact2-item-title{
+    padding-bottom: 11px;
+}
+.contact2-right-content{
+    padding-left: 20px;
+}
+.contact2-right-content div span{
+    display: block;
+    color: gray;
+    font-size: 1.5rem;
+}
+.footer{
+    background-color: #095aa8;
+}
+.footer-wrapper{
+    text-align: center;
+width: 50%;
+margin: 0 auto;
+color: white;
+}
+.footer-desc{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.footer-link-wrapper{
+    margin-top: 20px;
+}
+.footer-right-reserved{
+    margin-top: 30px;
+    font-size: 1.3rem;
+
+}
+.footer-sm-link{
+    background-color: dodgerblue;
+padding: 5px 10px;
+text-decoration: none;
+color: white;
+font-size: 1.9rem;
+border-radius: 8px;
+}
+.footer-sm-link:not(:last-child){
+    margin-right: 10px;
+}
+.small-navbar{
+    display: flex;
+justify-content: space-between;
+width: 0;
+}
+.menu-wrapper{
+    /* border: 1px solid black; */
+    padding: 5px;
+    width: 45px;
+    display: none;
+    cursor: pointer;
+}
+.menu-line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    display: inline-block;
+}
+.nav-toogle{
+    display: block;
+}
+.cross-none{
+    display: none;
+}
+.cross{
+    position: absolute;
+right: 27px;
+top: -5px;
+cursor: pointer;
+display: none;
+}
+.cross:hover i{
+    color: dodgerblue;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    html{
+        font-size: 56.25%;
+    }
+    .hero-name {
+        font-size: 2.8rem;
+      }
+      .nav-toogle{
+        display: block !important;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .right-img{
+        margin: 0px 0 38px 0;
+    }
+    .nav-toogle{
+        display: block;
+    }
+    .small-navbar{
+        
+    width: 99%;
+    }
+    .menu-wrapper{
+        
+        display: block;
+    }
+.column{
+    flex-direction: column;
+}
+.detail{
+    padding-top: 41px;
+}
+.row {
+    width: 99%;
+    text-align: center;
+  }
+  .sec1-btn-cont{
+    justify-content: center;
+  }
+  .radius-block{
+    width: 99%;
+    padding: 1.6rem 2rem;
+  }
+  .radius-column {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .radius-row{
+    margin: 2rem 0;
+  }
+  .abt-personal-detail{
+    width: 99%;
+  }
+  .about-detail{
+    padding-top: 28px;
+  }
+  .journey-section{
+    padding-top: 30px;
+  }
+  .title-container{
+    padding-bottom: 25px;
+  }
+  .inner-expert{
+    width: 99%;
+  }
+  .journey-wrapper{
+    text-align: left;
+  }
+  .specilized-section{
+    padding: 0 0;
+  }
+  .journey-section{
+  padding-bottom: 10px;
+  }
+  .offer-wrapper{
+    width: 49%;
+  }
+  .work-demo-item {
+    width: 50%;
+}
+
+.blog-item {
+    width: 48%;
+    background-color: white;
+  }
+  .blog-wrapper {
+   
+    flex-wrap: wrap;
+  }
+.link-container{
+    position: absolute;
+top: 72px;
+z-index: 99;
+width: 100%;
+background: white;
+left: 0;
+display: none;
+}
+.nav-cont-ul{
+    display: flex;
+flex-direction: column;
+position: relative;
+
+max-width: 100%;
+text-align: center;
+}
+.link-container ul li a {
+    padding: .9rem 1.5rem;
+    display: inline-block;
+}
+.cross{
+    display: block;
+}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+
+.offer-wrapper{
+    width: 99%;
+  }
+  .work-demo-item {
+    width: 99%;
+ }
+ .work-link {
+    padding: 9px 9px;
+    display: inline-block;
+}
+.work-demo-wrapper {
+    padding-top: 20px;
+}
+.contact1-wrapper{
+    padding: 0 0;
+}
+
+.blog-item {
+    width: 99%;
+    background-color: white;
+  }
+
+  .blog-wrapper {
+   
+    flex-wrap: wrap;
+  }
+.contact2-wrapper {
+  
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.contact2-left {
+    width: 99%;
+  }
+  .contact2-right {
+    width: 99%;margin-top: 49px;
+  }
+  .contact2-right-item{
+    padding-left: 0;
+  }
+  .send-message{
+    font-size: 1.4rem;
+  }
+  .footer-wrapper{
+    width: 99%;
+  }
+  .sub-title {
+    font-size: 3rem;
+    
+  }
+}
+
+
+
+
